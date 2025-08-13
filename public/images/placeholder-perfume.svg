@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo degradado suave -->
+  <rect width="400" height="400" fill="url(#paint0_linear)" />
+  
+  <!-- Silueta de frasco de perfume -->
+  <path d="M200 70C200 70 180 80 180 90V110H220V90C220 80 200 70 200 70Z" fill="#333333" />
+  <rect x="180" y="110" width="40" height="10" fill="#444444" />
+  <path d="M170 120H230C235 120 240 125 240 130V300C240 320 220 330 200 330C180 330 160 320 160 300V130C160 125 165 120 170 120Z" fill="#555555" />
+  
+  <!-- Detalles del frasco -->
+  <rect x="185" y="130" width="30" height="190" rx="5" fill="url(#paint1_linear)" opacity="0.3" />
+  
+  <!-- Atomizador -->
+  <rect x="195" y="40" width="10" height="30" fill="#333333" />
+  
+  <!-- Texto "Perfume" -->
+  <text x="200" y="360" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333333">PERFUME</text>
+  
+  <!-- Gradientes -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F8F8" />
+      <stop offset="1" stop-color="#E0E0E0" />
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="185" y1="130" x2="215" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" />
+      <stop offset="1" stop-color="#CCCCCC" />
+    </linearGradient>
+  </defs>
+</svg>

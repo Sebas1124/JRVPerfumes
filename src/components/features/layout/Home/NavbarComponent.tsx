@@ -14,8 +14,10 @@ import {
     ListItemText,
     ListItemIcon,
     Divider,
+    IconButton,
 } from '@mui/material';
 
+import MenuIcon from '@mui/icons-material/Menu';
 
 // --- Dependencias de GSAP (instaladas vía npm) ---
 // NOTA: Para el entorno de vista previa, se cambiará a carga por CDN,
@@ -139,7 +141,7 @@ export const NavbarComponent = ({ navItems }: Props) => {
                 }}
             >
                 <Toolbar sx={{ justifyContent: 'space-between', height: '70px' }}>
-                    <Typography variant="h5" component={Link} to="/" sx={{ textDecoration: 'none', color: 'inherit', fontWeight: 'bold' }}>
+                    <Typography variant="h5" component={Link} to="/" sx={{ textDecoration: 'none', color: 'white', fontWeight: 'bold' }}>
                         JRV
                     </Typography>
 
@@ -177,7 +179,15 @@ export const NavbarComponent = ({ navItems }: Props) => {
                     </Box>
 
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-                        
+                        <IconButton
+                            color="inherit"
+                            aria-label="open drawer"
+                            edge="end"
+                            onClick={() => handleToggleDrawer(true)}
+                            sx={{ display: { md: 'none' } }}
+                        >
+                            <MenuIcon />
+                        </IconButton>
                     </Box>
                 </Toolbar>
             </AppBar>

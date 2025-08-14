@@ -184,7 +184,7 @@ export const NavbarComponent = ({ navItems }: Props) => {
                             aria-label="open drawer"
                             edge="end"
                             onClick={() => handleToggleDrawer(true)}
-                            sx={{ display: { md: 'none' } }}
+                            sx={{ display: { md: 'none' }, color: 'white' }}
                         >
                             <MenuIcon />
                         </IconButton>
